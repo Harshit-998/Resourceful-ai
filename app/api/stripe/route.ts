@@ -41,12 +41,12 @@ export async function GET() {
       line_items: [
         {
           price_data: {
-            currency: "USD",
+            currency: "inr",
             product_data: {
               name: "Resourceful Pro",
               description: "Unlimited AI Generations"
             },
-            unit_amount: 2000,
+            unit_amount: 999 * 100,
             recurring: {
               interval: "month"
             }
